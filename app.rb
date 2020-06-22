@@ -41,6 +41,7 @@ end
 
   get '/second_exercise' do
     "Your second lesson will be to set your session :id key to a value.\nIn the route: /set_session, write a line of code that sets the session[:id] equal to 1.\nThen, navigate to the '/set_session' path"
+     session[:id] == 1
   end
 
   get '/set_session' do
